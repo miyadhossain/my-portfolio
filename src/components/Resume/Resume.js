@@ -50,7 +50,7 @@ const Resume = () => {
                   <div className={styles.icon}>
                     <i className="bi bi-globe"></i>
                   </div>
-                  <div className={styles.data}>www.miyad.com</div>
+                  <div className={styles.data}>miyad-hossain.web.app</div>
                 </li>
               </ul>
             </div>
@@ -103,38 +103,31 @@ const Resume = () => {
               <ul>
                 <li>
                   <div className={styles.icon}>
-                    <i className="fab fa-facebook-square"></i>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/miyadhossain"
+                    >
+                      <i className="bi bi-github"></i>
+                    </a>
                   </div>
                   <div className={styles.data}>
-                    <p className={styles.semi_bold}>Facebook</p>
-                    <p>Stephen@facebook</p>
+                    <p className={styles.semi_bold}>Github</p>
                   </div>
                 </li>
+
                 <li>
                   <div className={styles.icon}>
-                    <i className="fab fa-twitter-square"></i>
-                  </div>
-                  <div className={styles.data}>
-                    <p className={styles.semi_bold}>Twitter</p>
-                    <p>Stephen@twitter</p>
-                  </div>
-                </li>
-                <li>
-                  <div className={styles.icon}>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                  <div className={styles.data}>
-                    <p className={styles.semi_bold}>Youtube</p>
-                    <p>Stephen@youtube</p>
-                  </div>
-                </li>
-                <li>
-                  <div className={styles.icon}>
-                    <i className="fab fa-linkedin"></i>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.linkedin.com/in/md-miyad-hossain-813426211/"
+                    >
+                      <i className="bi bi-linkedin"></i>
+                    </a>
                   </div>
                   <div className={styles.data}>
                     <p className={styles.semi_bold}>Linkedin</p>
-                    <p>Stephen@linkedin</p>
                   </div>
                 </li>
               </ul>
@@ -209,25 +202,6 @@ const Resume = () => {
                   <p className={styles.semi_bold}>Diploma-in-Engineering</p>
                   <p>Electrical Technology</p>
                 </div>
-              </li>
-            </ul>
-          </div>
-          <div className={`${styles.resume_item} ${styles.resume_hobby}`}>
-            <div className={styles.title}>
-              <p className={styles.bold}>Hobby</p>
-            </div>
-            <ul>
-              <li>
-                <i className="fas fa-book"></i>
-              </li>
-              <li>
-                <i className="fas fa-gamepad"></i>
-              </li>
-              <li>
-                <i className="fas fa-music"></i>
-              </li>
-              <li>
-                <i className="fab fa-pagelines"></i>
               </li>
             </ul>
           </div>

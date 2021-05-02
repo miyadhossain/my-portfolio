@@ -14,7 +14,7 @@ const MyProjects = () => {
       <main className={styles.page_content}>
         <div className={styles.card}>
           <div className={styles.content}>
-            <h6 className={styles.title}>Logistice Service Website</h6>
+            <h6 className={styles.title}>Logistic Service Website</h6>
             <button onClick={handleForward} className={styles.cardBtn}>
               Details
             </button>

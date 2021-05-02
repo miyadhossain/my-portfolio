@@ -1,0 +1,26 @@
+/* .type {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 140px;
+  background: lightgray;
+}
+
+.typeInfo {
+  color: rgb(153, 139, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 120px 0;
+}
+
+.description {
+  min-height: 248px;
+} */
+
+.title {
+  font-size: 60px;
+  line-height: 1;
+  text-shadow: 4px 4px 1px #c49edf;
+  padding-left: 12px;
+}

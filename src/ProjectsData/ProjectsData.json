@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "Logistic Service Website",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "technology": "Technology Used: React JS, React Router, React Hooks, Context Api, Axios, JWT Token, Stripe payment gateway, Firebase, NodeJS(Express), MongoDB, Github, Heroku.",
+    "liveSite": "https://blue-galaxy-express.web.app/",
+    "frontEnd": "https://github.com/miyadhossain/blue-galaxy-express-client",
+    "backEnd": "https://github.com/miyadhossain/blue-galaxy-express-server",
+    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619850405/ss1_fpqvdo.png",
+    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619854778/Capture_ipfx9c.png",
+    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619854625/admin_tnwqtw.png"
+  },
+  {
+    "id": 2,
+    "name": "Book's E-commerce",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "technology": "Technology Used: React JS, React Router, React Hooks, Context Api,  Firebase, NodeJS(Express), MongoDB, Github, Heroku.",
+    "liveSite": "https://books--heaven.web.app/",
+    "frontEnd": "https://github.com/miyadhossain/books-heaven-client",
+    "backEnd": "https://github.com/miyadhossain/books-heaven-server",
+    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855207/books_ltnrd1.png",
+    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855304/login_vqew4i.png",
+    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855315/panel_d4wcyp.png"
+  },
+  {
+    "id": 3,
+    "name": "Ride Sharing Website",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "technology": "Technology Used: React JS, React Router, React Hooks, Context Api,  Firebase, Github, Heroku.",
+    "liveSite": "https://u-turn-riders.web.app/",
+    "frontEnd": "https://github.com/miyadhossain/u-turn-riders",
+    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855694/riders_dkb2aq.png",
+    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855706/log_fvzzyt.png",
+    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855684/map_ubuenm.png"
+  },
+  {
+    "id": 4,
+    "name": "Soccer Teams Website",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "technology": "Technology Used: React JS, React Router, React Hooks, Context Api",
+    "liveSite": "https://angry-brown-466101.netlify.app/",
+    "frontEnd": "https://github.com/miyadhossain/craze-soccer-teams",
+    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856503/soccer_jms0xd.png",
+    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856518/soc2_p796ge.png",
+    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856538/soc3_hukjih.png"
+  },
+  {
+    "id": 5,
+    "name": "Team Builder Website",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "technology": "Technology Used: React JS, React Router, React Hooks",
+    "liveSite": "https://gallant-mahavira-6d4c85.netlify.app/",
+    "frontEnd": "https://github.com/miyadhossain/team-builder",
+    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856946/team_javhqx.png",
+    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856959/team2_zvtpy8.png",
+    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856973/team3_zvuagg.png"
+  },
+  {
+    "id": 6,
+    "name": "Fancy Slider Web App",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "technology": "Technology Used: HTML5, CSS3,Bootstrap Javascript(ES6)",
+    "liveSite": "https://miyadhossain.github.io/fancy-slider/",
+    "frontEnd": "https://github.com/miyadhossain/fancy-slider",
+    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619857438/slideer_ullpcu.png",
+    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619857458/slide2_g4dxtk.png",
+    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619857466/slide3_w6wvfw.png"
+  }
+]

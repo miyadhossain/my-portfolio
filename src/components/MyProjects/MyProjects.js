@@ -1,45 +1,24 @@
-import React from "react";
-import { useHistory } from "react-router";
-import styles from "./MyProjects.module.css";
+import React, { useEffect, useState } from "react";
+import ProjectData from "../../ProjectsData/ProjectsData.json";
+import ProjectInfo from "../ProjectInfo/ProjectInfo";
 
 const MyProjects = () => {
-  const history = useHistory();
-  const handleForward = () => {
-    history.push("/projects");
-  };
+  const [infos, setInfos] = useState([]);
+
+  useEffect(() => {
+    setInfos(ProjectData);
+  }, []);
+
   return (
     <div className="mt-5">
-      <h1 className="text-center">Projects</h1>
+      <h1 style={{ color: "#138496" }} className="text-center">
+        My Latest Projects
+      </h1>
+      {/* projects */}
 
-      <main className={styles.page_content}>
-        <div className={styles.card}>
-          <div className={styles.content}>
-            <h6 className={styles.title}>Logistic Service Website</h6>
-            <button onClick={handleForward} className={styles.cardBtn}>
-              Details
-            </button>
-          </div>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.content}>
-            <h6 className={styles.title}>Books E-commerce</h6>
-            <button onClick={handleForward} className={styles.cardBtn}>
-              Details
-            </button>
-          </div>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.content}>
-            <h6 className={styles.title}>Doctors Portal Website</h6>
-            <button onClick={handleForward} className={styles.cardBtn}>
-              Details
-            </button>
-          </div>
-        </div>
-      </main>
-      <button className="btn btn-info d-block mx-auto" onClick={handleForward}>
-        Explore more
-      </button>
+      {infos.map((info) => (
+        <ProjectInfo key={info.id} info={info}></ProjectInfo>
+      ))}
     </div>
   );
 };

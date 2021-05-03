@@ -2,17 +2,17 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import myImg from "../../../images/profile1.png";
 import Navbar from "../../Shared/Navbar/Navbar";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div className="">
+    <div className={styles.background}>
       <Navbar></Navbar>
-      {/* home */}
       <div className="container mt-5">
         <div className=" row justify-content-center align-items-center">
           <div className="col-md-1"></div>
-          <div className="col-md-6 col-sm-6">
-            <h1 style={{ fontSize: "50px", color: "#0F4C75" }}>
+          <div className={`${styles.type} col-md-6 col-sm-6`}>
+            <h1 className={styles.title}>
               Hi <br /> I'm Miyad
             </h1>
             <Typewriter

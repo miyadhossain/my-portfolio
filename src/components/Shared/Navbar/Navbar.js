@@ -27,15 +27,7 @@ const Navbar = () => {
               HOME
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              style={{ fontWeight: "600" }}
-              className="nav-link mr-5 text-info"
-              to="/projects"
-            >
-              PROJECTS
-            </Link>
-          </li>
+
           <li className="nav-item">
             <Link
               style={{ fontWeight: "600" }}

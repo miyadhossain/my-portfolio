@@ -2,7 +2,10 @@
   {
     "id": 1,
     "name": "Logistic Service Website",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "description1": "Developed a dynamic and interactive website with an Authentication system where users can log in and create a new account.",
+    "description2": "Contidional featured added as users can easily orders placed after successful login or user have to create a new account.",
+    "description3": "Implemented dynamic featured as Admin panel, Manage service inventory, User review panel, Total orders collection. Users can track individual order tracking.",
+    "description4": "Users can make payments by Stripe payment gateway and more exclusive featured as an individual control panel (Admin & Users).",
     "technology": "Technology Used: React JS, React Router, React Hooks, Context Api, Axios, JWT Token, Stripe payment gateway, Firebase, NodeJS(Express), MongoDB, Github, Heroku.",
     "liveSite": "https://blue-galaxy-express.web.app/",
     "frontEnd": "https://github.com/miyadhossain/blue-galaxy-express-client",
@@ -14,7 +17,10 @@
   {
     "id": 2,
     "name": "Book's E-commerce",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "description1": "Modern web featured as the authentication system has developed that users can create new account and login.",
+    "description2": "Build an interactive featured that users can easily add to cart and orders placed after successfully log in or users must have to login account.",
+    "description3": "Most useful featured orders collection has implemented and developed the website's admin panel.",
+    "description4": "Developed manage inventory system that products add, edit or delete unlimited.",
     "technology": "Technology Used: React JS, React Router, React Hooks, Context Api,  Firebase, NodeJS(Express), MongoDB, Github, Heroku.",
     "liveSite": "https://books--heaven.web.app/",
     "frontEnd": "https://github.com/miyadhossain/books-heaven-client",
@@ -26,45 +32,15 @@
   {
     "id": 3,
     "name": "Ride Sharing Website",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+    "description1": "Developed a dynamic and interactive website with an Authentication system where users can log in and create a new account.",
+    "description2": "Implemented ride-sharing featured that users can individually enjoy bike, car, metro-bus, and metro-rail.",
+    "description3": "Most applicable featured that users can search destination location and implemented Google map.",
+    "description4": "Developed ride available status checking.",
     "technology": "Technology Used: React JS, React Router, React Hooks, Context Api,  Firebase, Github, Heroku.",
     "liveSite": "https://u-turn-riders.web.app/",
     "frontEnd": "https://github.com/miyadhossain/u-turn-riders",
     "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855694/riders_dkb2aq.png",
     "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855706/log_fvzzyt.png",
     "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619855684/map_ubuenm.png"
-  },
-  {
-    "id": 4,
-    "name": "Soccer Teams Website",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
-    "technology": "Technology Used: React JS, React Router, React Hooks, Context Api",
-    "liveSite": "https://angry-brown-466101.netlify.app/",
-    "frontEnd": "https://github.com/miyadhossain/craze-soccer-teams",
-    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856503/soccer_jms0xd.png",
-    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856518/soc2_p796ge.png",
-    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856538/soc3_hukjih.png"
-  },
-  {
-    "id": 5,
-    "name": "Team Builder Website",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
-    "technology": "Technology Used: React JS, React Router, React Hooks",
-    "liveSite": "https://gallant-mahavira-6d4c85.netlify.app/",
-    "frontEnd": "https://github.com/miyadhossain/team-builder",
-    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856946/team_javhqx.png",
-    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856959/team2_zvtpy8.png",
-    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619856973/team3_zvuagg.png"
-  },
-  {
-    "id": 6,
-    "name": "Fancy Slider Web App",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
-    "technology": "Technology Used: HTML5, CSS3,Bootstrap Javascript(ES6)",
-    "liveSite": "https://miyadhossain.github.io/fancy-slider/",
-    "frontEnd": "https://github.com/miyadhossain/fancy-slider",
-    "img1": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619857438/slideer_ullpcu.png",
-    "img2": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619857458/slide2_g4dxtk.png",
-    "img3": "https://res.cloudinary.com/dxvzhnyuo/image/upload/v1619857466/slide3_w6wvfw.png"
   }
 ]

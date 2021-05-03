@@ -26,9 +26,9 @@ const Contact = () => {
     <section className="contact py-5 mt-5">
       <div className="container">
         <div className="section-header text-center text-white mb-5">
-          <h4 className="text-info">Contact with Me</h4>
+          <h3 className="text-info">Get in Touch</h3>
         </div>
-        <div className="col-md-9 mx-auto">
+        <div className="col-md-9 col-sm-12 mx-auto">
           <form onSubmit={sendEmail}>
             <div className="form-group">
               <input

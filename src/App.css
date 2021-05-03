@@ -1,1 +1,5 @@
-
+@media (max-width: 668px) {
+  h1 h2 h3 h4 h5 h6 p div {
+    font-size: calc(0.5rem + 1rem);
+  }
+}

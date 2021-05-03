@@ -27,7 +27,7 @@ const Header = () => {
               rel="noreferrer"
               href="https://drive.google.com/uc?export=download&id=1812LXguM6tHE1HR1CB8AFhgVuzhDJRIh"
             >
-              <button className="btn btn-info mt-3">
+              <button className="btn btn-info mt-3 mr-2">
                 <i class="bi bi-cloud-arrow-down"></i> Download Resume
               </button>
             </a>

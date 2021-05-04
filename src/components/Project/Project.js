@@ -11,7 +11,9 @@ const Project = ({ info }) => {
     img1,
     img2,
     img3,
+    id,
   } = info;
+
   return (
     <div className="container mt-5">
       <div className="row container justify-content-center align-items-center">

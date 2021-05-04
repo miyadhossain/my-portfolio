@@ -32,18 +32,18 @@ const Navbar = () => {
             <Link
               style={{ fontWeight: "600" }}
               className="nav-link mr-5 text-info"
-              to="/blogs"
+              to="/projects"
             >
-              BLOGS
+              PROJECTS
             </Link>
           </li>
           <li className="nav-item">
             <Link
               style={{ fontWeight: "600" }}
               className="nav-link mr-5 text-info"
-              to="resume"
+              to="getInTouch"
             >
-              RESUME
+              CONTACT ME
             </Link>
           </li>
         </ul>

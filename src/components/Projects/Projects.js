@@ -9,6 +9,7 @@ const Projects = () => {
   useEffect(() => {
     setProjectsInfo(ProjectsData);
   }, []);
+
   return (
     <div>
       <Navbar></Navbar>

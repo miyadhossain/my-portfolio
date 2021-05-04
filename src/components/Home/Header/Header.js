@@ -1,12 +1,16 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import myImg from "../../../images/profile1.png";
 import Navbar from "../../Shared/Navbar/Navbar";
 import styles from "./Header.module.css";
 
 const Header = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
-    <div className={styles.background}>
+    <div data-aos="fade-down" className={styles.background}>
       <Navbar></Navbar>
       <div className="container mt-5">
         <div className=" row justify-content-center align-items-center">
